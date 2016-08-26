@@ -1,0 +1,6 @@
+<module>
+	<id>nabu.testing.selenium</id>
+	<name>Testig Selenium</name>
+	<description>This module adds support for selenium</description>
+	<version>1.0</version>
+</module>

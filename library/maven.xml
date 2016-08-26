@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><maven><artifacts>be.nabu.glue:glue-selenese</artifacts><internalDomains>be.nabu.glue</internalDomains><provided>be.nabu.glue:glue-api</provided><provided>be.nabu.glue:glue</provided><provided>be.nabu.libs.evaluator:evaluator-api</provided><updateSnapshots>false</updateSnapshots></maven>
