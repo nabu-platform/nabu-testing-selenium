@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nabu.testing</groupId>
 	<artifactId>selenium</artifactId>
-	<version>1.0</version>
+	<version>${nabu.testing-selenium-version}</version>
 	<name>selenium</name>
 	
 	<parent>
@@ -18,7 +18,6 @@
 		<dependency>
 			<groupId>nabu.testing</groupId>
 			<artifactId>core</artifactId>
-			<version>1.0</version>
 		</dependency>
 	</dependencies>
 </project>
