@@ -1,23 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><maven>
-	<artifacts>be.nabu.glue:glue-selenese</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-support</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-api</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-chrome-driver</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-edge-driver</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-firefox-driver</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-ie-driver</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-opera-driver</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-remote-driver</artifacts>
-	<artifacts>org.seleniumhq.selenium:selenium-safari-driver</artifacts>
-	<artifacts>org.apache.commons:commons-exec</artifacts>
-	<artifacts>com.squareup.okhttp3:okhttp</artifacts>
-	<artifacts>commons-codec:commons-codec</artifacts>
-	<artifacts>commons-logging:commons-logging</artifacts>
-	<artifacts>com.google.code.gson:gson</artifacts>
-	<artifacts>com.google.guava:guava</artifacts>
-	<artifacts>org.apache.httpcomponents:httpclient</artifacts>
-	<artifacts>org.apache.httpcomponents:httpcore</artifacts>
-	<artifacts>com.squareup.okio:okio:jar</artifacts>
-	<artifacts>net.bytebuddy:byte-buddy</artifacts>
-	<provided>be.nabu.libs.types:types-binding-json</provided>
-	<provided>be.nabu.glue:glue-api</provided><provided>be.nabu.glue:glue</provided><provided>be.nabu.libs.evaluator:evaluator-api</provided><provided>junit:junit</provided><updateSnapshots>false</updateSnapshots></maven>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<maven>
+    <artifacts>be.nabu.glue:glue-selenese</artifacts>
+    <artifacts>org.seleniumhq.selenium:selenium-support</artifacts>
+    <artifacts>org.seleniumhq.selenium:selenium-api</artifacts>
+    <artifacts>org.seleniumhq.selenium:selenium-edge-driver</artifacts>
+    <artifacts>org.seleniumhq.selenium:selenium-firefox-driver</artifacts>
+    <artifacts>org.seleniumhq.selenium:selenium-ie-driver</artifacts>
+    <artifacts>org.seleniumhq.selenium:selenium-opera-driver</artifacts>
+    <artifacts>org.seleniumhq.selenium:selenium-safari-driver</artifacts>
+    <!--
+    <artifacts>org.seleniumhq.selenium:selenium-chrome-driver</artifacts>
+    <artifacts>org.apache.commons:commons-exec</artifacts>
+    <artifacts>com.squareup.okhttp3:okhttp</artifacts>
+    <artifacts>commons-codec:commons-codec</artifacts>
+    <artifacts>commons-logging:commons-logging</artifacts>
+    <artifacts>com.google.code.gson:gson</artifacts>
+    <artifacts>org.apache.httpcomponents:httpclient</artifacts>
+    <artifacts>org.apache.httpcomponents:httpcore</artifacts>
+    <artifacts>com.squareup.okio:okio:jar</artifacts>
+    -->
+    <encapsulated>true</encapsulated>
+    <provided>be.nabu.libs.types:types-binding-json</provided>
+    <provided>be.nabu.glue:glue-api</provided>
+    <provided>be.nabu.glue:glue</provided>
+    <provided>be.nabu.libs.evaluator:evaluator-api</provided>
+    <provided>junit:junit</provided>
+    <provided>org.mockito:mockito-core</provided>
+    <provided>org.reactivestreams:reactive-streams-tck</provided>
+    <provided>org.testng:testng</provided>
+    <provided>org.reflections:reflections</provided>
+    <updateSnapshots>false</updateSnapshots>
+    <encapsulationWhitelists>org/openqa/selenium/.*</encapsulationWhitelists>
+</maven>

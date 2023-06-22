@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><node artifactManager="be.nabu.eai.module.maven.MavenLibraryManager" lastModified="2016-08-29T09:34:23.293+02:00" leaf="true" version="25"><environmentId>hyperion</environmentId><properties/></node>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node artifactManager="be.nabu.eai.module.maven.MavenLibraryManager" created="2023-02-16T12:27:58.140+01:00" lastModified="2023-06-20T11:08:42.800+02:00" leaf="true" version="48">
+    <environmentId>apollo</environmentId>
+    <hidden>false</hidden>
+    <locked>false</locked>
+    <properties/>
+</node>
