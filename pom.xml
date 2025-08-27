@@ -11,8 +11,8 @@
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>nabu.testing</groupId>
-			<artifactId>core</artifactId>
+			<groupId>nabu.services</groupId>
+			<artifactId>glue</artifactId>
 		</dependency>
 	</dependencies>
 </project>
